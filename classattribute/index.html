@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vegetables</title>
+<link rel="stylesheet" href="index.css">
+
+<script>
+function showText(text) {
+    document.getElementById("msg").innerHTML = text;
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>Healthy Vegetables</h1>
+
+<div class="container">
+
+<div class="card carrot">
+<h2>🥕 Carrot</h2>
+<p>Good for eyesight.</p>
+<button onclick="showText('Carrot is rich in Vitamin A')">View</button>
+</div>
+
+
+<div class="card potato">
+<h2>🥔 Potato</h2>
+<p>Used in dishes.</p>
+<button onclick="showText('Potato gives energy to our body')">View</button>
+</div>
+
+
+<div class="card tomato">
+<h2>🍅 Tomato</h2>
+<p>Rich in vitamins.</p>
+<button onclick="showText('Tomato contains Vitamin C')">View</button>
+</div>
+
+
+<div class="card broccoli">
+<h2>🥦 Broccoli</h2>
+<p>Healthy vegetable.</p>
+<button onclick="showText('Broccoli is full of nutrients')">View</button>
+</div>
+
+</div>
+
+<h3 id="msg"></h3>
+
+</body>
+</html>

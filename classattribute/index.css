@@ -1,0 +1,41 @@
+body {
+    background:#fff8e1;
+    font-family:Arial;
+    text-align:center;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.card {
+    width:170px;
+    padding:15px;
+    color:white;
+    border-radius:12px;
+}
+
+.carrot {
+    background:#ff7043;
+}
+
+.potato {
+    background:#8d6e63;
+}
+
+.tomato {
+    background:#e53935;
+}
+
+.broccoli {
+    background:#43a047;
+}
+
+button {
+    padding:5px 10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
